@@ -1,16 +1,9 @@
 # Checks that the rust code isn't broken
 name: Build
 
-# run for anything rust related, as JSON files won't stop it compiling
 on:
   push:
-    paths:
-      - '**.rs'
-      - 'Cargo*'
   pull_request:
-    paths:
-      - '**.rs'
-      - 'Cargo*'
 
 jobs:
   validate:
