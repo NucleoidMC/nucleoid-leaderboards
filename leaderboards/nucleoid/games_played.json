@@ -1,0 +1,11 @@
+{
+  "id": "nucleoid:games_played",
+  "query": {
+    "sql": {
+      "query": "SELECT player_id, COUNT(player_id) AS total FROM player_statistics GROUP BY player_id ORDER BY total DESC",
+      "player": "player_id",
+      "value": "total",
+      "value_type": "uint"
+    }
+  }
+}

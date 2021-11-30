@@ -1,0 +1,31 @@
+# Checks that the rust code isn't broken
+name: Build
+
+# run for anything rust related, as JSON files won't stop it compiling
+on:
+  push:
+    paths:
+      - '**.rs'
+      - 'Cargo*'
+  pull_request:
+    paths:
+      - '**.rs'
+      - 'Cargo*'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install rust toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+      - name: Build with cargo
+        uses: actions-rs/cargo@v1
+        with:
+          command: build
+          arguments: --all --verbose

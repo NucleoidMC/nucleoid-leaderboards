@@ -1,0 +1,12 @@
+{
+  "id": "withersweeper:quickest_time",
+  "query": {
+    "statistic": {
+      "namespace": "withersweeper",
+      "key": "plasmid:quickest_time",
+      "aggregate": "minimum",
+      "ranking": "lowest",
+      "convert": "ticks_to_seconds"
+    }
+  }
+}

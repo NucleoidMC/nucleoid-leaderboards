@@ -1,0 +1,11 @@
+{
+  "id": "skywars:total_kills",
+  "query": {
+    "statistic": {
+      "namespace": "skywars",
+      "key": "plasmid:total_kills",
+      "aggregate": "total",
+      "ranking": "highest"
+    }
+  }
+}

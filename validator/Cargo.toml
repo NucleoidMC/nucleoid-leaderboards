@@ -1,0 +1,12 @@
+[package]
+name = "validator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ash (ashisbored) <ash.b.7558@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1"
+walkdir = "2"
+nucleoid-leaderboards = { path = ".." }

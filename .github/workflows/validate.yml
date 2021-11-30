@@ -1,0 +1,25 @@
+# Checks whether the JSON files are broken
+name: Validate leaderboards
+
+# run this for everything, because changing rust code or JSON might break things
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install rust toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+      - name: Validate JSON files
+        uses: actions-rs/cargo@v1
+        with:
+          command: run
+          arguments: --package validator
