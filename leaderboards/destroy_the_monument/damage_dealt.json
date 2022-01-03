@@ -1,0 +1,11 @@
+{
+    "id": "destroy_the_monument:damage_dealt",
+    "query": {
+        "statistic": {
+            "namespace": "destroy_the_monument",
+            "key": "plasmid:damage_dealt",
+            "aggregate": "total",
+            "ranking": "highest"
+        }
+    }
+}

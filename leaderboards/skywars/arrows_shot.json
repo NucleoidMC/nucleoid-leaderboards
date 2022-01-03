@@ -1,9 +1,9 @@
 {
-    "id": "skywars:total_kills",
+    "id": "skywars:arrows_shot",
     "query": {
         "statistic": {
             "namespace": "skywars",
-            "key": "plasmid:total_kills",
+            "key": "skywars:arrows_shot",
             "aggregate": "total",
             "ranking": "highest"
         }

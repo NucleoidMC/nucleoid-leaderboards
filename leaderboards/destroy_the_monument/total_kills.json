@@ -1,8 +1,8 @@
 {
-    "id": "skywars:total_kills",
+    "id": "destroy_the_monument:total_kills",
     "query": {
         "statistic": {
-            "namespace": "skywars",
+            "namespace": "destroy_the_monument",
             "key": "plasmid:total_kills",
             "aggregate": "total",
             "ranking": "highest"

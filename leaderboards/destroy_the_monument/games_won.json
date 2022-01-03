@@ -1,0 +1,11 @@
+{
+    "id": "destroy_the_monument:games_won",
+    "query": {
+        "statistic": {
+            "namespace": "destroy_the_monument",
+            "key": "plasmid:games_won",
+            "aggregate": "total",
+            "ranking": "highest"
+        }
+    }
+}

@@ -1,9 +1,9 @@
 {
-    "id": "skywars:total_kills",
+    "id": "fortress:modules_placed",
     "query": {
         "statistic": {
-            "namespace": "skywars",
-            "key": "plasmid:total_kills",
+            "namespace": "fortress",
+            "key": "fortress:modules_placed",
             "aggregate": "total",
             "ranking": "highest"
         }

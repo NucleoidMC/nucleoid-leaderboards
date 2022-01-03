@@ -1,0 +1,11 @@
+{
+    "id": "destroy_the_monument:monuments_destroyed",
+    "query": {
+        "statistic": {
+            "namespace": "destroy_the_monument",
+            "key": "destroy_the_monument:monuments_destroyed",
+            "aggregate": "total",
+            "ranking": "highest"
+        }
+    }
+}

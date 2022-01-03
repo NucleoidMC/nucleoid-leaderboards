@@ -1,0 +1,11 @@
+{
+    "id": "electricfloor:blocks_converted",
+    "query": {
+        "statistic": {
+            "namespace": "electricfloor",
+            "key": "electricfloor:blocks_converted",
+            "aggregate": "total",
+            "ranking": "highest"
+        }
+    }
+}
