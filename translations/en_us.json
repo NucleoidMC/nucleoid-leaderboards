@@ -18,8 +18,14 @@
     "leaderboard.skywars.damage_dealt": "Damage dealt",
     "leaderboard.skywars.games_won": "Games won",
     "leaderboard.skywars.total_kills": "Kills",
-    "leaderboard.withersweeper.fields_uncovered": "Fields uncovered",
-    "leaderboard.withersweeper.games_won": "Games won",
-    "leaderboard.withersweeper.quickest_time": "Quickest time",
+    "leaderboard.beginner_withersweeper.fields_uncovered": "Fields uncovered",
+    "leaderboard.beginner_withersweeper.games_won": "Games won",
+    "leaderboard.beginner_withersweeper.quickest_time": "Quickest time",
+    "leaderboard.intermediate_withersweeper.fields_uncovered": "Fields uncovered",
+    "leaderboard.intermediate_withersweeper.games_won": "Games won",
+    "leaderboard.intermediate_withersweeper.quickest_time": "Quickest time",
+    "leaderboard.expert_withersweeper.fields_uncovered": "Fields uncovered",
+    "leaderboard.expert_withersweeper.games_won": "Games won",
+    "leaderboard.expert_withersweeper.quickest_time": "Quickest time",
     "statistic.bundle.nucleoid": "Nucleoid"
 }

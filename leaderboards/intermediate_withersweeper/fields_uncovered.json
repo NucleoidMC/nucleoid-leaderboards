@@ -1,8 +1,8 @@
 {
-    "id": "withersweeper:fields_uncovered",
+    "id": "intermediate_withersweeper:fields_uncovered",
     "query": {
         "statistic": {
-            "namespace": "withersweeper",
+            "namespace": "intermediate_withersweeper",
             "key": "withersweeper:fields_uncovered",
             "aggregate": "total",
             "ranking": "highest"

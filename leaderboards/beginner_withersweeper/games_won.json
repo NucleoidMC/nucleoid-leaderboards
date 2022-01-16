@@ -1,8 +1,8 @@
 {
-    "id": "withersweeper:games_won",
+    "id": "beginner_withersweeper:games_won",
     "query": {
         "statistic": {
-            "namespace": "withersweeper",
+            "namespace": "beginner_withersweeper",
             "key": "plasmid:games_won",
             "aggregate": "total",
             "ranking": "highest"

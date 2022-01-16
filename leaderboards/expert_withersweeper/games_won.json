@@ -1,0 +1,11 @@
+{
+    "id": "expert_withersweeper:games_won",
+    "query": {
+        "statistic": {
+            "namespace": "expert_withersweeper",
+            "key": "plasmid:games_won",
+            "aggregate": "total",
+            "ranking": "highest"
+        }
+    }
+}

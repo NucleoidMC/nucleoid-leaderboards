@@ -1,0 +1,11 @@
+{
+    "id": "expert_withersweeper:fields_uncovered",
+    "query": {
+        "statistic": {
+            "namespace": "expert_withersweeper",
+            "key": "withersweeper:fields_uncovered",
+            "aggregate": "total",
+            "ranking": "highest"
+        }
+    }
+}

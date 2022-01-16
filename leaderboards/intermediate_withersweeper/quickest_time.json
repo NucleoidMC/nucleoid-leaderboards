@@ -1,8 +1,8 @@
 {
-    "id": "withersweeper:quickest_time",
+    "id": "intermediate_withersweeper:quickest_time",
     "query": {
         "statistic": {
-            "namespace": "withersweeper",
+            "namespace": "intermediate_withersweeper",
             "key": "plasmid:quickest_time",
             "aggregate": "minimum",
             "ranking": "lowest",
