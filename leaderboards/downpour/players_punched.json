@@ -1,0 +1,11 @@
+{
+    "id": "downpour:players_punched",
+    "query": {
+        "statistic": {
+            "namespace": "downpour",
+            "key": "downpour:players_punched",
+            "aggregate": "total",
+            "ranking": "highest"
+        }
+    }
+}

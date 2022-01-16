@@ -1,0 +1,11 @@
+{
+    "id": "downpour:rounds_survived",
+    "query": {
+        "statistic": {
+            "namespace": "downpour",
+            "key": "downpour:rounds_survived",
+            "aggregate": "total",
+            "ranking": "highest"
+        }
+    }
+}

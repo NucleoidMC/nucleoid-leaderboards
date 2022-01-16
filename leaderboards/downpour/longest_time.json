@@ -1,0 +1,12 @@
+{
+    "id": "downpour:longest_time",
+    "query": {
+        "statistic": {
+            "namespace": "downpour",
+            "key": "plasmid:longest_time",
+            "aggregate": "maximum",
+            "ranking": "highest",
+            "convert": "ticks_to_seconds"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "id": "downpour:games_won",
+    "query": {
+        "statistic": {
+            "namespace": "downpour",
+            "key": "plasmid:games_won",
+            "aggregate": "total",
+            "ranking": "highest"
+        }
+    }
+}
