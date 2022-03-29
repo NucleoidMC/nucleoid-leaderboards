@@ -1,8 +1,8 @@
 {
-  "id": "loop_de_loop:total_hoops",
+  "id": "loop_de_loop_flappy:total_hoops",
   "query": {
     "statistic": {
-      "namespace": "loop_de_loop",
+      "namespace": "loop_de_loop_flappy",
       "key": "loopdeloop:total_hoops",
       "aggregate": "total",
       "ranking": "highest"

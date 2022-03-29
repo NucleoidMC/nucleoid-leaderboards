@@ -1,8 +1,8 @@
 {
-  "id": "loop_de_loop:missed_hoops",
+  "id": "loop_de_loop_ridiculous:missed_hoops",
   "query": {
     "statistic": {
-      "namespace": "loop_de_loop",
+      "namespace": "loop_de_loop_ridiculous",
       "key": "loopdeloop:missed_hoops",
       "aggregate": "total",
       "ranking": "highest"

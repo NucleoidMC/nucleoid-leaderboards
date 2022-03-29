@@ -1,0 +1,12 @@
+{
+  "id": "loop_de_loop_ridiculous:quickest_time",
+  "query": {
+    "statistic": {
+      "namespace": "loop_de_loop_ridiculous",
+      "key": "plasmid:quickest_time",
+      "aggregate": "minimum",
+      "ranking": "lowest",
+      "convert": "ticks_to_seconds"
+    }
+  }
+}

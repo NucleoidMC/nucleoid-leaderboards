@@ -1,0 +1,11 @@
+{
+  "id": "loop_de_loop_ridiculous:games_won",
+  "query": {
+    "statistic": {
+      "namespace": "loop_de_loop_ridiculous",
+      "key": "plasmid:games_won",
+      "aggregate": "total",
+      "ranking": "highest"
+    }
+  }
+}
