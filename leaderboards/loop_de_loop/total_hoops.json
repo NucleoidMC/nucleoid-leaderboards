@@ -1,0 +1,11 @@
+{
+  "id": "loop_de_loop:total_hoops",
+  "query": {
+    "statistic": {
+      "namespace": "loop_de_loop",
+      "key": "loop_de_loop:total_hoops",
+      "aggregate": "total",
+      "ranking": "highest"
+    }
+  }
+}

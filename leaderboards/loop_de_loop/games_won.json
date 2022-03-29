@@ -1,0 +1,11 @@
+{
+  "id": "loop_de_loop:games_won",
+  "query": {
+    "statistic": {
+      "namespace": "loop_de_loop",
+      "key": "plasmid:games_won",
+      "aggregate": "total",
+      "ranking": "highest"
+    }
+  }
+}
