@@ -1,0 +1,21 @@
+{
+    "leaderboard.downpour.longest_time": "Najdaljši čas",
+    "leaderboard.beginner_withersweeper.games_won": "Zmagane igre",
+    "leaderboard.beginner_withersweeper.quickest_time": "Najhitrejši čas",
+    "leaderboard.destroy_the_monument.damage_dealt": "Zadane škode",
+    "leaderboard.destroy_the_monument.games_won": "Zmagane igre",
+    "leaderboard.electricfloor.games_won": "Zmagane igre",
+    "leaderboard.electricfloor.longest_time": "Najdaljši čas",
+    "leaderboard.expert_withersweeper.games_won": "Zmagane igre",
+    "leaderboard.expert_withersweeper.quickest_time": "Najhitrejši čas",
+    "leaderboard.intermediate_withersweeper.games_won": "Zmagane igre",
+    "leaderboard.intermediate_withersweeper.quickest_time": "Najhitrejši čas",
+    "leaderboard.nucleoid.games_played": "Odigrane igre",
+    "leaderboard.skywars.arrows_hit": "Zadete puščice",
+    "leaderboard.skywars.arrows_shot": "Izstreljene puščice",
+    "leaderboard.skywars.games_won": "Zmagane igre",
+    "nucleoid.nav.recent_games": "Nedavne igre",
+    "leaderboard.downpour.games_won": "Zmagane igre",
+    "leaderboard.destroy_the_monument.total_kills": "Uboji",
+    "leaderboard.fortress.games_won": "Zmagane igre"
+}
