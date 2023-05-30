@@ -6,7 +6,7 @@
             "key": "plasmid:quickest_time",
             "aggregate": "minimum",
             "ranking": "lowest",
-            "convert": "ticks_to_seconds"
+            "value_format": "time"
         }
     }
 }

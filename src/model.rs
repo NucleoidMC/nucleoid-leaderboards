@@ -14,13 +14,16 @@ pub enum LeaderboardQuery {
         player: String,
         value: String,
         value_type: ValueType,
+        #[serde(default)]
+        value_format: ValueFormat,
     },
     Statistic {
         namespace: String,
         key: String,
         aggregate: Aggregate,
         ranking: Ranking,
-        convert: Option<UnitConversion>,
+        #[serde(default)]
+        value_format: ValueFormat,
     },
 }
 
@@ -49,8 +52,10 @@ pub enum ValueType {
     Float,
 }
 
-#[derive(Deserialize, Serialize, Clone)]
+#[derive(Default, Deserialize, Serialize, Clone, Copy)]
 #[serde(rename_all = "snake_case")]
-pub enum UnitConversion {
-    TicksToSeconds,
+pub enum ValueFormat {
+    #[default]
+    Count,
+    Time,
 }
