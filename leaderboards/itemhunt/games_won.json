@@ -1,0 +1,11 @@
+{
+    "id": "itemhunt:games_won",
+    "query": {
+        "statistic": {
+            "namespace": "itemhunt",
+            "key": "plasmid:games_won",
+            "aggregate": "total",
+            "ranking": "highest"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "id": "itemhunt_with_crafting:items_obtained",
+    "query": {
+        "statistic": {
+            "namespace": "itemhunt_with_crafting",
+            "key": "itemhunt:items_obtained",
+            "aggregate": "maximum",
+            "ranking": "highest"
+        }
+    }
+}
