@@ -1,0 +1,11 @@
+{
+    "id": "itemhunt:items_obtained",
+    "query": {
+        "statistic": {
+            "namespace": "itemhunt",
+            "key": "itemhunt:items_obtained",
+            "aggregate": "maximum",
+            "ranking": "highest"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "id": "itemhunt_with_crafting:games_won",
+    "query": {
+        "statistic": {
+            "namespace": "itemhunt_with_crafting",
+            "key": "plasmid:games_won",
+            "aggregate": "total",
+            "ranking": "highest"
+        }
+    }
+}
