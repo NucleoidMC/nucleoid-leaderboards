@@ -33,5 +33,8 @@
     "nucleoid.nav.leaderboards": "Leaderboards",
     "leaderboard.beginner_withersweeper.fields_uncovered": "Aufgedeckte Felder",
     "leaderboard.destroy_the_monument.damage_dealt": "Zugefügter Schaden",
-    "leaderboard.skywars.total_kills": "Kills"
+    "leaderboard.skywars.total_kills": "Kills",
+    "leaderboard.itemhunt.games_won": "Gewonnene Spiele",
+    "leaderboard.itemhunt_with_crafting.games_won": "Gewonnene Spiele",
+    "leaderboard.itemhunt.items_obtained": "Erhaltene Items"
 }
