@@ -22,6 +22,8 @@
     "leaderboard.fortress.modules_placed": "Modules placed",
     "leaderboard.fortress.rows_captured": "Rows captured",
     "leaderboard.fortress.total_kills": "Kills",
+    "leaderboard.infiniteparkour.all_time_points": "All-time points",
+    "leaderboard.infiniteparkour.points": "Points",
     "leaderboard.intermediate_withersweeper.fields_uncovered": "Fields uncovered",
     "leaderboard.intermediate_withersweeper.games_won": "Games won",
     "leaderboard.intermediate_withersweeper.quickest_time": "Quickest time",

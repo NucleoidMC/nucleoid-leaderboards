@@ -1,0 +1,11 @@
+{
+    "id": "infiniteparkour:points",
+    "query": {
+        "statistic": {
+            "namespace": "infinite_parkour",
+            "key": "plasmid:points",
+            "aggregate": "maximum",
+            "ranking": "highest"
+        }
+    }
+}
