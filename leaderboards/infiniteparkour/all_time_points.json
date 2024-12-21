@@ -1,0 +1,11 @@
+{
+    "id": "infiniteparkour:all_time_points",
+    "query": {
+        "statistic": {
+            "namespace": "infinite_parkour",
+            "key": "plasmid:points",
+            "aggregate": "total",
+            "ranking": "highest"
+        }
+    }
+}
